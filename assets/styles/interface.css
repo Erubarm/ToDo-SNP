@@ -1,0 +1,93 @@
+:root {
+    --Black: #1B1F2B; /* main text color */
+    --White: #fff; /* backgroud-todo`s */
+    --Grey-100: #F1F3F2; /* main-background */
+    --Orange-100: #F8E6BE; /* border */
+    --Red-small: #CC9A9A; /* крестик без наведения на него */
+    --Red-bold: #AF5B5E; /* крестик при наведении на него */
+}
+
+@font-face {
+    font-family: "Roboto h1";
+    src: url('../fonts/Roboto-Bold.ttf') format('ttf');
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 109%; /* 104.64px */
+    letter-spacing: 1.92px;
+}
+
+@font-face {
+    font-family: "Roboto h2";
+    src: url("../fonts/Roboto-Bold.ttf") format('ttf');
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124%; /* 73.16px */
+}
+
+@font-face {
+    font-family: "Roboto h3";
+    src: url("../fonts/Roboto-Medium.ttf") format('ttf');
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 122%; /* 42.7px */
+}
+
+@font-face {
+    font-family: "Roboto p-big";
+    src: url("../fonts/Roboto-Bold.ttf") format('ttf');
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 122%; /* 28.06px */
+}
+
+@font-face {
+    font-family: "Roboto p-normal";
+    src: url("../fonts/Roboto-Regular.ttf") format('ttf');
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%; /* 28.4px */
+}
+
+h1, h2, p {
+    color: var(--Black);
+}
+
+h1 {
+    font-family: "Roboto h1", sans-serif;
+}
+
+h2 {
+    font-family: "Roboto h2", sans-serif;
+}
+
+p {
+    font-family: "Roboto p-big", sans-serif;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--Grey-100);
+}
