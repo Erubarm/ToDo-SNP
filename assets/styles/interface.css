@@ -1,7 +1,8 @@
 :root {
     --Black: #1B1F2B; /* main text color */
-    --White: #fff; /* backgroud-todo`s */
+    --White: #fff; /* li-background */
     --Grey-100: #F1F3F2; /* main-background */
+    --Grey-200: #D9DFDB; /* input-background */
     --Orange-100: #F8E6BE; /* border */
     --Red-small: #CC9A9A; /* крестик без наведения на него */
     --Red-bold: #AF5B5E; /* крестик при наведении на него */
@@ -65,7 +66,7 @@ h2 {
     font-family: "Roboto h2", sans-serif;
 }
 
-p {
+p, ul, li, span {
     font-family: "Roboto p-big", sans-serif;
 }
 
