@@ -8,10 +8,11 @@ li {
 }
 
 .li-inner {
+    padding: 16px;
 
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
 
 
@@ -19,8 +20,30 @@ li {
 }
 
 .li-inner input {
-    width: 32px;
-    height: 32px;
+    width: 25px;
+    height: 25px;
 
-    margin: 14px;
+    cursor: pointer;
+}
+
+.li-inner button {
+    background: inherit;
+    border: none;
+
+    width: 15px;
+    height: 15px;
+
+    cursor: pointer;
+}
+
+.button__cross img{
+    width: 15px;
+    height: 15px;
+}
+
+.task__input-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
 }

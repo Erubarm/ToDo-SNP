@@ -20,7 +20,12 @@ header input {
     border-radius: 2px;
     border: none;
     border-color: var(--Grey-200);
-    padding: 20px 20px 20px 60px;
+    padding: 20px 20px 20px 48px;
 
     font-size: 24px;
+}
+
+header input:focus {
+    outline: 3px solid var(--Red-small);
+    box-shadow: 1px 1px 20px var(--Red-small);
 }
