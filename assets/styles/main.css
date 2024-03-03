@@ -47,3 +47,27 @@ li {
     align-items: center;
     gap: 8px;
 }
+
+.task-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
+
+.task-footer button {
+    background: inherit;
+    color: var(--Black);
+
+    font-family: 'Roboto p-big', sans-serif;
+    font-size: 16px;
+
+    border: none;
+    
+
+    cursor: pointer;
+
+}
+.hide {
+    display: none;
+}

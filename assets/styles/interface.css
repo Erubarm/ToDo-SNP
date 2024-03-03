@@ -21,7 +21,7 @@
 @font-face {
     font-family: "Roboto h2";
     src: url("../fonts/Roboto-Bold.ttf") format('ttf');
-    font-size: 59px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: 124%; /* 73.16px */
@@ -30,7 +30,7 @@
 @font-face {
     font-family: "Roboto h3";
     src: url("../fonts/Roboto-Medium.ttf") format('ttf');
-    font-size: 35px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 500;
     line-height: 122%; /* 42.7px */
@@ -39,7 +39,7 @@
 @font-face {
     font-family: "Roboto p-big";
     src: url("../fonts/Roboto-Bold.ttf") format('ttf');
-    font-size: 23px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 122%; /* 28.06px */
@@ -92,3 +92,4 @@ body {
     align-items: center;
     background: var(--Grey-100);
 }
+
